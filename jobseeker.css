@@ -1,7 +1,8 @@
 body{
     background:url();
     background-size: cover;
-    font-family: Arial
+    font-family: Arial;
+    background-image: url("pexels-photo-3758926.jpeg");
 }
 .wrap{
     max-width:350px;
@@ -12,6 +13,7 @@ body{
     padding:40px;
     color:#fff;
     margin-top:100px;
+    opacity:0.8;
 }
 h2{
     text-align: centre;
