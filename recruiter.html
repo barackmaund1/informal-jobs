@@ -4,34 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration Form</title>
+    <link rel="stylesheet" href="css/recruiter.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 <body>
-    <h1>Registration Form</h1>
-    <div class="register">
-        <form action="" method="post" id="register">
-            <h2>Register here</h2><br>
-            <label for="">First Name</label><br>
-            <input type="text" name="fname" id="name" placeholder="enter your first name.."><br><br>
-            <label for="">Last Name</label><br>
-            <input type="text" name="lname" id="name" placeholder="enter your last name.."><br><br>
-            <label for="">Mobile No</label><br>
-            <select name="" id="Phone">
-                <option value="">+254</option>
-                <option value="">+255</option>
-                <option value="">+256</option>
-            </select>
-            <input type="number" name="mphone" id="name" placeholder="enter your phone no.."><br><br>
-            <label for="">Email</label><br>
-            <input type="email" name="email" id="name" placeholder="enter your email.."><br><br>
-            <label for="">Password</label> <br>
-            <input type="password" name="password" id="name" placeholder="enter your password"><br><br>
-            <label for="">Re:enter Pasword</label><br>
-            <input type="password" name="password" id="name" placeholder="Re-enter your password"><br><br>
-            <input type="radio" name="male" id="male"><span id="gender">&nbsp; male</span> &nbsp;&nbsp; <br>
-            <input type="radio" name="male" id="male"><span id="gender">&nbsp; Female</span> &nbsp;&nbsp;<br>
-            <input type="radio" name="male" id="male"><span id="gender">&nbsp; other</span> &nbsp;&nbsp; <br><br>
-            <input type="submit" value="submit" id="submit" class="btn btn-success">
-        </form>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+               <h1 id="registration-name" class="text-center">REGISTRATION FORM</h1>
+               <label for="" class="label col-md-3 control-label">Login</label>
+               <div class="col-md-9">
+                   <input type="text" class="form-control" name="name" placeholder="Enter your name...">
+               </div>
+               <label for="" class="label col-md-3 control-label">Password</label>
+               <div class="col-md-9">
+                   <input type="password" class="form-control" name="password" placeholder="Enter your password...">
+                   <small>password must be 6 characters</small>
+               </div>
+               <label for="" class="label col-md-3 control-label">Confirm Password</label>
+               <div class="col-md-9">
+                   <input type="text" class="form-control" name="password" placeholder="confirm your password...">
+               </div>
+               <label for="" class="label col-md-3 control-label">First name</label>
+               <div class="col-md-9">
+                   <input type="text" class="form-control" name="firstname" placeholder="Enter your first name...">
+               </div>
+               <label for="" class="label col-md-3 control-label">Last name</label>
+               <div class="col-md-9">
+                   <input type="text" class="form-control" name="lastname" placeholder="Enter your last name...">
+               </div>
+               <label for="" class="label col-md-3 control-label">E-mail</label>
+               <div class="col-md-9">
+                   <input type="email" class="form-control" name="email" placeholder="Enter your email...">
+               </div>
+               <label for="" class="label col-md-3 control-label">Language</label>
+               <div class="col-md-9">
+                   <select class="form-control">
+                       <option value="">English</option>
+                       <option value="">French</option>
+                       <option value="">Spanish</option>
+                       <option value="">Turkey</option>
+                       <option value="">Pakistan</option>
+                       <option value="">Swahili</option>
+                   </select>
+               </div>
+               <a href="#"><div class="btn btn-info">Submit</div></a> <br> <br>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
     </div>
 </body>
 </html>
