@@ -17,6 +17,7 @@ body{
     font-size:19px ;
     width: 200px;
     font-size: 30px;
+    color: wheat;
 
 }
 h1{
@@ -46,7 +47,7 @@ h1{
     margin-top:20px ;
     margin-left: 30px;
     width: 400px;
-    font-size:19px ;
+    font-size:25px ;
     height:40px ;
     font-size:19px ;
     transition: 1sec;
@@ -55,6 +56,33 @@ h1{
   background-color:transparent ;
   border:2px solid #edbb00 ;
 
+}
+.cancelbtn{
+    background-color: #edbb00;
+    width:150px ;
+    font-size:25px ;
+    height:40px ;
+    color: wheat;
+}
+#cancelbtn{
+    margin-top:20px ;
+    width: 200px;
+    background-color: #edbb00;
+    width:150px ;
+    font-size:25px ;
+    height:40px ;
+    color: wheat; 
+}
+.cancelbtn:hover{
+    background-color:transparent ;
+}
+.psw{
+ font-size: 25px;
+ color: wheat;
+}
+.me{
+    font-size: 25px;
+    color: wheat;
 }
 .create1{
     display: none;
