@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing page</title>
     <link rel="stylesheet" href="css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-default">
+        <nav class="navbar navbar-default navbar-inverse">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -33,8 +34,6 @@
                         <li><a href="#">About Us</a></li>
                         <li><a href="#">Contact Us</a></li>
                     </ul>
-                    </li>
-                    </ul>
                 </div>
                 <!-- /.navbar-collapse -->
             </div>
@@ -51,18 +50,29 @@
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                    <img src="..." alt="...">
+                    <div class="banner" style="background-image: url('images/canada.jpeg')"></div>
                     <div class="carousel-caption">
-                        ...
+                        <h2>We are <span>Hiring</span></h2>
+                        <h3>Cleaners and House girls</h3>
+                        <p><a href="#">Apply Now</a></p>
                     </div>
                 </div>
                 <div class="item">
-                    <div class="banner" style="background-image: url(img/dubai.jpg);"></div>
+                    <div class="banner" style="background-image: url(..img/canada.jpeg);"></div>
                     <div class="carousel-caption">
-                        ...
+                        <h2>Do you want to work <span>abroad</span></h2>
+                        <h3>Carpenters and Turn boys</h3>
+                        <p><a href="#">Apply Now</a></p>
                     </div>
                 </div>
-                ...
+                <div class="item">
+                    <div class="banner" style="background-image: url(..img/qatar.jpeg);"></div>
+                    <div class="carousel-caption">
+                        <h2>Are you looking for <span>Job</span></h2>
+                        <h3>Farming and Nursing</h3>
+                        <p><a href="#">Apply Now</a></p>
+                    </div>
+                </div>
             </div>
 
             <!-- Controls -->
@@ -76,6 +86,7 @@
             </a>
         </div>
     </header>
+
 </body>
 
 </html>
