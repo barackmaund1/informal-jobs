@@ -46,21 +46,28 @@ option{
 }
 body{
     background-image: url(https://bit.ly/2Idcfpt);
-    background-size: 100% ;
+    background-size: cover ;
     background-repeat: no-repeat;
 }
 #our-services{
     font-size: 30px;
     color: white;
 }
-.glyphicon-log-in{
-    font-size: 50px;
+.glyphicon-list-alt{
+    /* font-size: 50px;
     color: blue;
     border: 1px solid blue;
     padding: 20px;
-    border-radius: 100px;
-    margin-left: 230px;
+    border-radius: 100px; */
 }
 .text-center{
     margin-top: 20px;
+}
+#ifnotabove{
+    text-align: center;
+    color: white;
+}
+.farm-services{
+    color: white;
+    text-align: center;
 }
