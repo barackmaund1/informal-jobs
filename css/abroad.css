@@ -12,7 +12,7 @@
       background-color: #edbb00 ;
       border: 0;
       border-radius:5px ;
-      margin-top:30px ;
+      margin-top:150px ;
       margin-left: 70px;
       font-size:19px ;
       width: 200px;
@@ -27,11 +27,12 @@
       background-color: #edbb00 ;
       border: 0;
       border-radius:5px ;
-      margin-top:30px ;
+      margin-top:100px ;
       margin-left: 70px;
       font-size:19px ;
       width: 200px;
       font-size:30PX ;
+    
   
   }
   .form-control{
@@ -47,10 +48,11 @@
       margin-top:20px ;
       margin-left: 30px;
       width: 400px;
-      font-size:25px ;
+      font-size:19px ;
       height:40px ;
       font-size:25px ;
       transition: 1sec;
+      
   }
   .btn-info:hover{
     background-color:transparent ;
@@ -59,8 +61,8 @@
   }
   .cancelbtn{
       background-color: #edbb00;
-      width:150px ;
-      font-size:25px ;
+      width:200px ;
+      font-size:20px ;
       height:40px ;
       color: wheat;
       border-radius:5px ;
@@ -70,20 +72,23 @@
       width: 200px;
       background-color: #edbb00;
       width:150px ;
-      font-size:25px ;
+      font-size:19px ;
       height:40px ;
       color: wheat; 
       border-radius:5px ;
+  }
+  #cancelbtn:hover{
+background-color:transparent ;
   }
   .cancelbtn:hover{
       background-color:transparent ;
   }
   .psw{
-   font-size: 25px;
+   font-size: 19px;
    color: wheat;
   }
   .me{
-      font-size: 25px;
+      font-size: 19px;
       color: wheat;
   }
   .create1{
