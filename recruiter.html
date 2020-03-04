@@ -6,11 +6,12 @@
     <title>Registration Form</title>
     <link rel="icon" href="" class="glyphicon glyphicon-list-alt">
     <link rel="stylesheet" href="css/recruiter.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head><br>
 <body>
     <div class="container">
-        <div class="row">
+        <div id="register_form" class="row">
             <div class="col-md-3"></div>
             <div class="col-md-6">
                <h1 id="registration-name" class="text-center">REGISTRATION FORM</h1>
@@ -50,57 +51,88 @@
                        <option value="">Swahili</option>
                    </select>
                </div>
-               <a href="#"><div class="btn btn-info">Submit</div></a> <br> <br>
+               <a href="#"><div id="register-button" class="btn btn-info">Submit</div></a> <br> <br>
             </div> 
             <div class="col-md-3"></div>
         </div><br><br>
-        <div id="services-row" class="row">
-            <div class="col-md-3"></div>
-            <div class="col-md-6">
-                <h1 id="our-services" class="text-center">Our Services</h1>
-                <span class="glyphicon glyphicon-log-in"></span>
-                <h2 class="text-center farm-services">Farm Services</h2>
-                <select class="form-control" name="" id="">
-                    <option value="">gardener</option>
-                    <option value="">Fruit harvester</option>
-                    <option value="">Field setter</option>
-                    <option value="">Trimming Fences</option>
-                    <option value="">Packagers</option>
-                </select>
-                <h2 class="text-center farm-services">Maids</h2>
-                <select class="form-control" name="" id="">
-                    <option value="">Lady's maid</option>
-                    <option value="">Nursary maid</option>
-                    <option value="">Kitchen maid</option>
-                    <option value="">Sculley maid</option>
-                    <option value="">Stillroom maid</option>
-                </select>
-                <h2 class="text-center farm-services">Security</h2>
-                <select class="form-control" name="" id="">
-                    <option value="">Home gaurd</option>
-                    <option value="">garden gaurd</option>
-                    <option value="">Car gaurd</option>
-                    <option value="">Body gaurd</option>
-                    <option value="">Night gaurd</option>
-                </select>
-                <h2 class="text-center farm-services">Cleaners</h2>
-                <select class="form-control" name="" id="">
-                    <option value="">laundry Cleaners</option>
-                    <option value="">House cleaner</option>
-                    <option value="">Compound cleaners</option>
-                    <option value="">Pet cleaners</option>
-                    <option value="">Wall Window cleaners</option>
-                </select>
-                <label id="ifnotabove" for="" class="text-center">If not above,describe better here</label>
+            </div>
+            <div id="services-row" class="container">
+                <div class="row">
+                    <div class="col-md-12">   <h1 id="our-services" class="text-center">Our Services</h1></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div id="card-body" class="card-body">
+                            <h2 class="text-center farm-services">Farm Services</h2> <br>
+                            <div class="che-ck">
+                                <label for=""><input type="checkbox">Fruit harvester</label> <br>
+                                <label for=""><input type="checkbox">Field setter</label> <br>
+                                <label for=""><input type="checkbox">Trimming Fences</label> <br>
+                                <label for=""><input type="checkbox">Packagers</label> <br>
+                                <label for=""><input type="checkbox">Gardener</label> <br>
+                            </div>
+                        </div> 
+                    </div> 
+                    <div class="col-md-6">
+                        <div class="card-body">
+                            <h2 class="text-center farm-services">Maids</h2>
+                            <div class="che-ck">
+                                <label for=""><input type="checkbox">Lady's maid</label> <br>
+                                <label for=""><input type="checkbox">Nursary maid</label> <br>
+                                <label for=""><input type="checkbox">Kitchen maid</label> <br>
+                                <label for=""><input type="checkbox">Sculley maid</label> <br>
+                                <label for=""><input type="checkbox">Stillroom maid</label> <br>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card-body">
+                            <h2 class="text-center farm-services">Cleaners</h2>
+                            <div class="che-ck">
+                                <label for=""><input type="checkbox">laundry Cleaners</label> <br>
+                                <label for=""><input type="checkbox">House cleaner</label> <br>
+                                <label for=""><input type="checkbox">Compound cleaners</label> <br>
+                                <label for=""><input type="checkbox">Pet cleaners</label> <br>
+                                <label for=""><input type="checkbox">Wall&Window cleaners</label> <br>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card-body">
+                            <h2 class="text-center farm-services">Security</h2>
+                            <div class="che-ck">
+                                <label for=""><input type="checkbox">Home gaurd</label> <br>
+                                <label for=""><input type="checkbox">garden gaurd</label> <br>
+                                <label for=""><input type="checkbox">Car gaurd</label> <br>
+                                <label for=""><input type="checkbox">Body gaurd</label> <br>
+                                <label for=""><input type="checkbox">Night gaurd</label> <br>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+             <br><br>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card-body">
+                        <label id="ifnotabove" for="" class="text-center">If not above,describe better here</label>
                 <textarea name="message" id="" cols="30" rows="7" placeholder="Please describe the type of service you wish..." class="form-control"></textarea>
                 <label for="" class="text-center farm-services">No. of workers</label>
                 <div class="col-md-9">
                     <input type="text" class="form-control" name="worker" placeholder="Enter no of workers you need..">
                 </div>
-                <a href="#"><div class="btn btn-info glyphicon glyphicon-list-alt">Submit</div></a> <br> <br>
+                <a href="#"><div class="btn btn-info alert alert-success" onclick="validate()">Submit</div></a> <br> <br>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-3"></div>
+            </div>
         </div>
     </div>
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+  <script src="js/recruiter.js"></script>
 </body><br><br>
 </html>
