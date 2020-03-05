@@ -20,11 +20,11 @@ $(document).ready(function() {
       
   }
 
-  function validate(){
-    var user = document.getElementById('firstn').value;
+//   function validate(){
+//     var user = document.getElementById('firstn').value;
 
-    if(user == ""){
-        document.getElementById('firstn').innerHTML = "Please enter your firstname";
-        return false;
-    }
-  }
+//     if(user == ""){
+//         document.getElementById('firstn').innerHTML = "Please enter your firstname";
+//         return false;
+//     }
+//   }
