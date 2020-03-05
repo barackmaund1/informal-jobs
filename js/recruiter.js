@@ -19,3 +19,12 @@ $(document).ready(function() {
       });
       
   }
+
+  function validate(){
+    var user = document.getElementById('firstn').value;
+
+    if(user == ""){
+        document.getElementById('firstn').innerHTML = "Please enter your firstname";
+        return false;
+    }
+  }
