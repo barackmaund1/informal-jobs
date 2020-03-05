@@ -27,6 +27,25 @@ header .carousel-inner .item {
     text-transform: uppercase;
 }
 
+.navbar-brand span {
+    color: #edbb00;
+    font-family: fantasy;
+    font-size: 50px;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px #edbb00, 0 0 20px #fff, 0 0 30px #9c9a0a, 0 0 40px #9c9a0a, 0 0 50px #9c9a0a, 0 0 60px #9c9a0a, 0 0 70px #9c9a0a;
+    }
+    to {
+        text-shadow: 0 0 20px #edbb00, 0 0 30px #edbb00, 0 0 40px #edbb00, 0 0 50px #edbb00, 0 0 60px #edbb00, 0 0 70px #edbb00, 0 0 80px #edbb00;
+    }
+}
+
 .banner {
     -webkit-background-size: cover;
     background-size: cover;
