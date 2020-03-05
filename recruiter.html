@@ -14,28 +14,33 @@
         </div>
         <div id="register_form" class="row">
             <div class="col-md-3"></div>
-            <div class="col-md-6">
+            <div class="col-md-6" onsubmit="return validate()">
                <h1 id="registration-name" class="text-center">REGISTRATION FORM</h1>
                <label for="" class="label col-md-3 control-label">First name</label>
                <div class="col-md-9">
-                   <input type="text" class="form-control" name="firstname" placeholder="Enter your first name...">
+                   <input id="firstn" type="text" class="form-control" name="firstname" placeholder="Enter your first name...">
+                   <span id="firstn" class="text-danger"></span>
                </div>
                <label for="" class="label col-md-3 control-label">Last name</label>
                <div class="col-md-9">
                    <input type="text" class="form-control" name="lastname" placeholder="Enter your last name...">
+                   <span id="lastname" class="text-danger"></span>
                </div>
                <label for="" class="label col-md-3 control-label">E-mail</label>
                <div class="col-md-9">
                    <input type="email" class="form-control" name="email" placeholder="Enter your email...">
+                   <span id="email" class="text-danger"></span>
                </div>
                <label for="" class="label col-md-3 control-label">Password</label>
                <div class="col-md-9">
                    <input type="password" class="form-control" name="password" placeholder="Enter your password...">
                    <small>password must be 6 characters</small>
+                   <span id="password" class="text-danger"></span>
                </div>
                <label for="" class="label col-md-3 control-label">Confirm Password</label>
                <div class="col-md-9">
                    <input type="text" class="form-control" name="password" placeholder="confirm your password...">
+                   <span id="password2" class="text-danger"></span>
                </div>
                <label for="" class="label col-md-3 control-label">Language</label>
                <div class="col-md-9">
@@ -48,7 +53,7 @@
                        <option value="">Swahili</option>
                    </select>
                </div>
-               <a href="#"><div id="register-button" class="btn btn-info">Submit</div></a> <br> <br>
+               <a href="#"><div id="register-button" class="btn btn-info" onclick="validate()">Submit</div></a> <br> <br>
             </div> 
             <div class="col-md-3"></div>
         </div><br><br>
@@ -126,6 +131,9 @@
             </div>
         </div>
     </div>
+    <script>
+        
+    </script>
     <script
   src="https://code.jquery.com/jquery-3.4.1.js"
   integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
