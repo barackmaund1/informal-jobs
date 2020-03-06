@@ -54,6 +54,8 @@ function validate() {
         error_message.innerHTML = text;
         return false;
     }
-    alert("Form Submitted Successfully!");
-    return true;
+    alert(
+        'Thank you for reaching us !'
+    )
+
 }
