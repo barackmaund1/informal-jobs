@@ -1,26 +1,32 @@
 body {
     font-family: poppins;
 }
+
 header .carousel-inner .item {
     height: 100vh;
 }
+
 .navbar-inverse {
     background-color: transparent !important;
     border-color: transparent !important;
 }
+
 .navbar-inverse .navbar-brand {
     color: #fff;
     font-size: 40px;
     padding: 40px 15px;
     font-weight: 900;
 }
+
 .nav.navbar-nav.navbar-right {
     margin: 25px 0;
 }
+
 .navbar-inverse .navbar-nav>li>a {
     color: #fff;
     text-transform: uppercase;
 }
+
 .navbar-brand span {
     color: #edbb00;
     font-family: fantasy;
@@ -30,6 +36,7 @@ header .carousel-inner .item {
     -moz-animation: glow 1s ease-in-out infinite alternate;
     animation: glow 1s ease-in-out infinite alternate;
 }
+
 @keyframes glow {
     from {
         text-shadow: 0 0 10px #edbb00, 0 0 20px #fff, 0 0 30px #9c9a0a, 0 0 40px #9c9a0a, 0 0 50px #9c9a0a, 0 0 60px #9c9a0a, 0 0 70px #9c9a0a;
@@ -38,38 +45,47 @@ header .carousel-inner .item {
         text-shadow: 0 0 20px #edbb00, 0 0 30px #edbb00, 0 0 40px #edbb00, 0 0 50px #edbb00, 0 0 60px #edbb00, 0 0 70px #edbb00, 0 0 80px #edbb00;
     }
 }
+
 .banner {
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
     height: 100vh;
 }
+
 .carousel-caption {
     padding-bottom: 250px;
     font-family: poppins;
     height: 65vh;
 }
+
 .carousel-caption h2 {
     font-size: 65px;
     text-transform: uppercase;
     font-weight: bold;
 }
+
 .carousel-caption h2 span {
     color: #edbb00;
 }
+
 .carousel-caption a:hover {
     padding-right: 25px;
 }
+
 .carousel-control.right {
     background-image: none;
 }
+
 .carousel-caption.left {
     background-image: none;
 }
+
 .carousel-indicators .active {
     background-color: #edbb00 !important;
     border-color: #edbb00;
 }
+
 .footer {
     position: absolute;
     z-index: 5;
@@ -79,6 +95,7 @@ header .carousel-inner .item {
     width: 100%;
     color: #fff;
 }
+
 .social-icons a p {
     font-weight: bold;
     font-family: Verdana;
@@ -87,6 +104,7 @@ header .carousel-inner .item {
     margin: 0 10px;
     min-height: 100px;
 }
+
 .button {
     padding: 15px 25px;
     font-size: 24px;
@@ -100,36 +118,46 @@ header .carousel-inner .item {
     box-shadow: 0 9px #999;
     margin-left: 30px;
 }
+
 .button:hover {
     background-color: #3e8e41
 }
+
 .button:active {
     background-color: #3e8e41;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
-}body {
+}
+
+body {
     font-family: poppins;
 }
+
 header .carousel-inner .item {
     height: 100vh;
 }
+
 .navbar-inverse {
     background-color: transparent !important;
     border-color: transparent !important;
 }
+
 .navbar-inverse .navbar-brand {
     color: #fff;
     font-size: 40px;
     padding: 40px 15px;
     font-weight: 900;
 }
+
 .nav.navbar-nav.navbar-right {
     margin: 25px 0;
 }
+
 .navbar-inverse .navbar-nav>li>a {
     color: #fff;
     text-transform: uppercase;
 }
+
 .navbar-brand span {
     color: #edbb00;
     font-family: fantasy;
@@ -139,6 +167,7 @@ header .carousel-inner .item {
     -moz-animation: glow 1s ease-in-out infinite alternate;
     animation: glow 1s ease-in-out infinite alternate;
 }
+
 @-webkit-keyframes glow {
     from {
         text-shadow: 0 0 10px #edbb00, 0 0 20px #fff, 0 0 30px #9c9a0a, 0 0 40px #9c9a0a, 0 0 50px #9c9a0a, 0 0 60px #9c9a0a, 0 0 70px #9c9a0a;
@@ -147,38 +176,47 @@ header .carousel-inner .item {
         text-shadow: 0 0 20px #edbb00, 0 0 30px #edbb00, 0 0 40px #edbb00, 0 0 50px #edbb00, 0 0 60px #edbb00, 0 0 70px #edbb00, 0 0 80px #edbb00;
     }
 }
+
 .banner {
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
     height: 100vh;
 }
+
 .carousel-caption {
     padding-bottom: 250px;
     font-family: poppins;
     height: 65vh;
 }
+
 .carousel-caption h2 {
     font-size: 65px;
     text-transform: uppercase;
     font-weight: bold;
 }
+
 .carousel-caption h2 span {
     color: #edbb00;
 }
+
 .carousel-caption a:hover {
     padding-right: 25px;
 }
+
 .carousel-control.right {
     background-image: none;
 }
+
 .carousel-caption.left {
     background-image: none;
 }
+
 .carousel-indicators .active {
     background-color: #edbb00 !important;
     border-color: #edbb00;
 }
+
 .footer {
     position: absolute;
     z-index: 5;
@@ -188,6 +226,7 @@ header .carousel-inner .item {
     width: 100%;
     color: #fff;
 }
+
 .social-icons a p {
     font-weight: bold;
     font-family: Verdana;
@@ -196,6 +235,7 @@ header .carousel-inner .item {
     margin: 0 10px;
     min-height: 100px;
 }
+
 .button {
     padding: 15px 25px;
     font-size: 24px;
@@ -209,36 +249,46 @@ header .carousel-inner .item {
     box-shadow: 0 9px #999;
     margin-left: 30px;
 }
+
 .button:hover {
     background-color: #3e8e41
 }
+
 .button:active {
     background-color: #3e8e41;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
-}body {
+}
+
+body {
     font-family: poppins;
 }
+
 header .carousel-inner .item {
     height: 100vh;
 }
+
 .navbar-inverse {
     background-color: transparent !important;
     border-color: transparent !important;
 }
+
 .navbar-inverse .navbar-brand {
     color: #fff;
     font-size: 40px;
     padding: 40px 15px;
     font-weight: 900;
 }
+
 .nav.navbar-nav.navbar-right {
     margin: 25px 0;
 }
+
 .navbar-inverse .navbar-nav>li>a {
     color: #fff;
     text-transform: uppercase;
 }
+
 .navbar-brand span {
     color: #edbb00;
     font-family: fantasy;
@@ -248,6 +298,7 @@ header .carousel-inner .item {
     -moz-animation: glow 1s ease-in-out infinite alternate;
     animation: glow 1s ease-in-out infinite alternate;
 }
+
 @-webkit-keyframes glow {
     from {
         text-shadow: 0 0 10px #edbb00, 0 0 20px #fff, 0 0 30px #9c9a0a, 0 0 40px #9c9a0a, 0 0 50px #9c9a0a, 0 0 60px #9c9a0a, 0 0 70px #9c9a0a;
@@ -256,38 +307,47 @@ header .carousel-inner .item {
         text-shadow: 0 0 20px #edbb00, 0 0 30px #edbb00, 0 0 40px #edbb00, 0 0 50px #edbb00, 0 0 60px #edbb00, 0 0 70px #edbb00, 0 0 80px #edbb00;
     }
 }
+
 .banner {
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
     height: 100vh;
 }
+
 .carousel-caption {
     padding-bottom: 250px;
     font-family: poppins;
     height: 65vh;
 }
+
 .carousel-caption h2 {
     font-size: 65px;
     text-transform: uppercase;
     font-weight: bold;
 }
+
 .carousel-caption h2 span {
     color: #edbb00;
 }
+
 .carousel-caption a:hover {
     padding-right: 25px;
 }
+
 .carousel-control.right {
     background-image: none;
 }
+
 .carousel-caption.left {
     background-image: none;
 }
+
 .carousel-indicators .active {
     background-color: #edbb00 !important;
     border-color: #edbb00;
 }
+
 .footer {
     position: absolute;
     z-index: 5;
@@ -297,6 +357,7 @@ header .carousel-inner .item {
     width: 100%;
     color: #fff;
 }
+
 .social-icons a p {
     font-weight: bold;
     font-family: Verdana;
@@ -305,6 +366,7 @@ header .carousel-inner .item {
     margin: 0 10px;
     min-height: 100px;
 }
+
 .button {
     padding: 15px 25px;
     font-size: 24px;
@@ -318,36 +380,46 @@ header .carousel-inner .item {
     box-shadow: 0 9px #999;
     margin-left: 30px;
 }
+
 .button:hover {
     background-color: #3e8e41
 }
+
 .button:active {
     background-color: #3e8e41;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
-}body {
+}
+
+body {
     font-family: poppins;
 }
+
 header .carousel-inner .item {
     height: 100vh;
 }
+
 .navbar-inverse {
     background-color: transparent !important;
     border-color: transparent !important;
 }
+
 .navbar-inverse .navbar-brand {
     color: #fff;
     font-size: 40px;
     padding: 40px 15px;
     font-weight: 900;
 }
+
 .nav.navbar-nav.navbar-right {
     margin: 25px 0;
 }
+
 .navbar-inverse .navbar-nav>li>a {
     color: #fff;
     text-transform: uppercase;
 }
+
 .navbar-brand span {
     color: #edbb00;
     font-family: fantasy;
@@ -357,6 +429,7 @@ header .carousel-inner .item {
     -moz-animation: glow 1s ease-in-out infinite alternate;
     animation: glow 1s ease-in-out infinite alternate;
 }
+
 @-webkit-keyframes glow {
     from {
         text-shadow: 0 0 10px #edbb00, 0 0 20px #fff, 0 0 30px #9c9a0a, 0 0 40px #9c9a0a, 0 0 50px #9c9a0a, 0 0 60px #9c9a0a, 0 0 70px #9c9a0a;
@@ -365,38 +438,47 @@ header .carousel-inner .item {
         text-shadow: 0 0 20px #edbb00, 0 0 30px #edbb00, 0 0 40px #edbb00, 0 0 50px #edbb00, 0 0 60px #edbb00, 0 0 70px #edbb00, 0 0 80px #edbb00;
     }
 }
+
 .banner {
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
     height: 100vh;
 }
+
 .carousel-caption {
     padding-bottom: 250px;
     font-family: poppins;
     height: 65vh;
 }
+
 .carousel-caption h2 {
     font-size: 65px;
     text-transform: uppercase;
     font-weight: bold;
 }
+
 .carousel-caption h2 span {
     color: #edbb00;
 }
+
 .carousel-caption a:hover {
     padding-right: 25px;
 }
+
 .carousel-control.right {
     background-image: none;
 }
+
 .carousel-caption.left {
     background-image: none;
 }
+
 .carousel-indicators .active {
     background-color: #edbb00 !important;
     border-color: #edbb00;
 }
+
 .footer {
     position: absolute;
     z-index: 5;
@@ -406,6 +488,7 @@ header .carousel-inner .item {
     width: 100%;
     color: #fff;
 }
+
 .social-icons a p {
     font-weight: bold;
     font-family: Verdana;
@@ -414,6 +497,7 @@ header .carousel-inner .item {
     margin: 0 10px;
     min-height: 100px;
 }
+
 .button {
     padding: 15px 25px;
     font-size: 24px;
@@ -427,9 +511,11 @@ header .carousel-inner .item {
     box-shadow: 0 9px #999;
     margin-left: 30px;
 }
+
 .button:hover {
     background-color: #3e8e41
 }
+
 .button:active {
     background-color: #3e8e41;
     box-shadow: 0 5px #666;
