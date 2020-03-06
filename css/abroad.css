@@ -3,7 +3,7 @@
     padding: 0px;  
   }
   body{
-      background-image:url("/images/2.jpg");
+      background-image:url("../images/2.jpg");
       background-size:100% ;
       background-attachment:fixed ;
       font-family: sans-serif;
