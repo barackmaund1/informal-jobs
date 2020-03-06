@@ -84,3 +84,12 @@ body{
 label{
     color: white;
 }
+.icon{
+    border-radius: 100px;
+}
+#back{
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    background-color: white;
+}
