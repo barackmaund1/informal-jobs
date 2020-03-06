@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="jobseeker.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <title>Jobseeker Form</title>
+</head>
+<body id="jobseeker">
+    <div class="wrap">
+        <div class="form4"  >
+            <div class="form" id="hide">
+                <form  id="jobs" >
+                    <h2>Fill Up</h2>
+                    <input type="text"  placeholder="First Name" id="FirstName" required>
+                    <input type="text"  placeholder="Second Name" id="SecondName" required>
+                    <input type="text"  placeholder="Age" id="Age" required>
+                    <input type="text"  placeholder="Email" id="Email" required>
+                    <input type="text"  placeholder="PhoneNumber" id="PhoneNumber" required>
+                    <input type="text"  placeholder="EducationLevel" id="EducationLevel" required>
+                    <button id="submit3" class="next" onclick="salidate()"> Submit </button>
+                                   
+                    <!-- < type="submit" id="form" value="submit" onclick="salidate()"> -->
+                </form>
+            </div>
+            <div class="form2" id="show">
+                <form id="question">
+                    <h4>Rewrite the sentences using long form </h4>
+                    <input type="text" placeholder="They don't Pizza "  id="answer" required>
+                    <input type="text" placeholder="We don't go to bed early" id="answer1" required>
+                    <input type="text" placeholder="It doesn't make sense" id="answer2" required>
+                    <button id="submit1" onclick="someName()"> Submit </button> 
+                </form>
+            </div> 
+            <div class="form3"> 
+                <form id="preference">
+                    <h4>Enter country and jobs you interested in.</h4>
+                    <input type="text" placeholder="Countries of Interest" id="Countries" required>
+                    <input type="text" placeholder="Jobs of Interest" id="Jobs" required>
+                    <input id="submit" id="form3" value="submit">
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="js/jobseekers.js"></script>
+</body>
+</html>
