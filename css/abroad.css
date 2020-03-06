@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;  
+  }
+  body{
+      background-image:url("/images/2.jpg");
+      background-size:100% ;
+      background-attachment:fixed ;
+      font-family: sans-serif;
+  }
+  .btn-primary{
+      background-color: #edbb00 ;
+      border: 0;
+      border-radius:5px ;
+      margin-top:150px ;
+      margin-left: 70px;
+      font-size:19px ;
+      width: 200px;
+      font-size: 30px;
+      color: wheat;
+  
+  }
+  h1{
+      color: thistle;
+  }
+  .job{
+      background-color: #edbb00 ;
+      border: 0;
+      border-radius:5px ;
+      margin-top:100px ;
+      margin-left: 70px;
+      font-size:19px ;
+      width: 200px;
+      font-size:30PX ;
+    
+  
+  }
+  .form-control{
+      background:transparent ;
+      margin-top:17px ;
+      border-radius:4px ;
+      font-size:19px ;
+  }
+  .btn-info{
+      background-color:#edbb00 ;
+      border:0 ;
+      border-radius:5px ;
+      margin-top:20px ;
+      margin-left: 30px;
+      width: 400px;
+      font-size:19px ;
+      height:40px ;
+      font-size:25px ;
+      transition: 1sec;
+      
+  }
+  .btn-info:hover{
+    background-color:transparent ;
+    border:2px solid #edbb00 ;
+  
+  }
+  .cancelbtn{
+      background-color: #edbb00;
+      width:200px ;
+      font-size:20px ;
+      height:40px ;
+      color: wheat;
+      border-radius:5px ;
+  }
+  #cancelbtn{
+      margin-top:20px ;
+      width: 200px;
+      background-color: #edbb00;
+      width:150px ;
+      font-size:19px ;
+      height:40px ;
+      color: wheat; 
+      border-radius:5px ;
+  }
+  #cancelbtn:hover{
+background-color:transparent ;
+  }
+  #back{
+    margin-top:20px ;
+    width: 200px;
+    background-color: #edbb00;
+    width:150px ;
+    font-size:19px ;
+    height:40px ;
+    color: wheat; 
+    border-radius:5px ;
+}
+#back:hover{
+background-color:transparent ;
+}
+  .cancelbtn:hover{
+      background-color:transparent ;
+  }
+  .psw{
+   font-size: 19px;
+   color: wheat;
+  }
+  .me{
+      font-size: 19px;
+      color: wheat;
+  }
+  .create1{
+      display: none;
+      padding:10px ;
+      margin:10px ;
+  }
+  .create1:hover{
+      border: 1px solid #edbb00;
+  }
+  .create2{
+   display:none ;
+   padding-bottom:10px ;
+   margin:10px ; 
+  } 
+  .create2:hover{
+      border: 1px solid #edbb00;
+  }
