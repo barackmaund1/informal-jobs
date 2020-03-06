@@ -5,38 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration Form</title>
     <link rel="icon" href="" class="glyphicon glyphicon-list-alt">
+    <link class="icon" rel="icon" href="https://bit.ly/2TpnQrV">
     <link rel="stylesheet" href="css/recruiter.css">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head><br>
-<body>
     <div class="container">
-        <div class="btn btn-info"><a href="index.html">Back</a>
-        </div>
+        <div class="btn btn-info" id="back"><a href="index.html">Back</a>
+        </div> <br><br>
         <div id="register_form" class="row">
             <div class="col-md-3"></div>
             <div class="col-md-6">
                <h1 id="registration-name" class="text-center">REGISTRATION FORM</h1>
                <label for="" class="label col-md-3 control-label">First name</label>
                <div class="col-md-9">
-                   <input type="text" class="form-control" name="firstname" placeholder="Enter your first name...">
+                   <input id="firstn" type="text" class="form-control" name="firstname" placeholder="Enter your first name...">
+                   <span id="firstn" class="text-danger"></span>
                </div>
                <label for="" class="label col-md-3 control-label">Last name</label>
                <div class="col-md-9">
                    <input type="text" class="form-control" name="lastname" placeholder="Enter your last name...">
+                   <span id="lastname" class="text-danger"></span>
                </div>
                <label for="" class="label col-md-3 control-label">E-mail</label>
                <div class="col-md-9">
                    <input type="email" class="form-control" name="email" placeholder="Enter your email...">
+                   <span id="email" class="text-danger"></span>
                </div>
                <label for="" class="label col-md-3 control-label">Password</label>
                <div class="col-md-9">
                    <input type="password" class="form-control" name="password" placeholder="Enter your password...">
                    <small>password must be 6 characters</small>
+                   <span id="password" class="text-danger"></span>
                </div>
                <label for="" class="label col-md-3 control-label">Confirm Password</label>
                <div class="col-md-9">
                    <input type="text" class="form-control" name="password" placeholder="confirm your password...">
+                   <span id="password2" class="text-danger"></span>
                </div>
                <label for="" class="label col-md-3 control-label">Language</label>
                <div class="col-md-9">
@@ -127,6 +132,9 @@
             </div>
         </div>
     </div>
+    <script>
+        
+    </script>
     <script
   src="https://code.jquery.com/jquery-3.4.1.js"
   integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="

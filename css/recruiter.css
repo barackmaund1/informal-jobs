@@ -46,7 +46,7 @@ option{
     opacity: 0.9;
 }
 body{
-    background-image: url(https://bit.ly/39p0MPB);
+    background-image: url(https://bit.ly/2PLW8TS);
     background-size: cover ;
     background-repeat: no-repeat;
 }
@@ -83,4 +83,13 @@ body{
 }
 label{
     color: white;
+}
+.icon{
+    border-radius: 100px;
+}
+#back{
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    background-color: white;
 }
