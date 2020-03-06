@@ -89,6 +89,9 @@ background-color:transparent ;
     height:40px ;
     color: wheat; 
     border-radius:5px ;
+    position: absolute;
+    left:140%;
+
 }
 #back:hover{
 background-color:transparent ;
