@@ -21,6 +21,7 @@ $("#submit3").click(function(event){
   }); 
  });
 }
+
 function someName(){
 var total=0;
 var answer1 = document.getElementById("answer1").value;
@@ -36,7 +37,7 @@ var answer2 = document.getElementById("answer2").value;
 ``}
 $("#submit1").click(function(event){
   event.preventDefault()
-  $(".form2").hide(2000);
-  $(".form3").show(2000); 
+  $("#question").hide(2000);
+  $("#preference").show(2000); 
 });
 }
