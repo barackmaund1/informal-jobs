@@ -1,0 +1,88 @@
+body{
+    background:url();
+    background-size: cover;
+    font-family: Arial;
+    background-image: url("pexels-photo-3758926.jpeg");
+}
+.wrap{
+    max-width:600px;
+    border-radius: 20px;
+    margin: auto;
+    background:rgba(0,0,0,0.8);
+    box-sizing: border-box;
+    padding:40px;
+    color:#fff;
+    margin-top:50px;
+    opacity:0.8;
+    text-align: center;
+}
+h2{
+    text-align: centre ;
+}
+h4{
+    text-align: center !important;
+}
+input[type=text],input[type=password]{
+    widows: 100%;
+    box-sizing:border-box;
+    padding:12px 5px;
+    background:rgba(0,0,0,0.10);
+    outline: none;
+    border: none;
+    border-bottom: 1px dotted #fff;
+    color: #fff;
+    border-radius: 5px;
+    margin: 5px;
+    font-weight:bold;
+    font-size: 18px;
+    text-align: center;
+}
+#submit, #submit1, #submit2, #submit3{
+    width: 50%;
+    box-sizing:border-box;
+    padding:10px 0;
+    margin-top: 30px;
+    outline:none;
+    border:none;
+    background:#60adde;
+    opacity:0.7;
+    border-radius:20px;
+    font-size:20px;
+    color:#fff;
+    text-align: center;
+}
+ input[type=submit2]{
+    width: 50%;
+    box-sizing:border-box;
+    padding:10px 0;
+    margin-top: 30px;
+    outline:none;
+    border:none;
+    background:#60adde;
+    opacity:0.7;
+    border-radius:20px;
+    font-size:20px;
+    color:#fff; 
+    text-align: center;
+ }
+
+.form3{
+    display: none;
+}
+.form2{
+    display: none;
+}
+#submit{
+    width: 50%;
+    box-sizing:border-box;
+    padding:10px 0;
+    margin-top: 30px;
+    outline:none;
+    border:none;
+    background:#60adde;
+    opacity:0.7;
+    border-radius:20px;
+    font-size:20px;
+    color:#fff;
+} 
+    
