@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#registration-name{
+    font-size: 40px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.label{
+    font-size: 19px;
+    margin-top: 10px;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+}
+.form-control{
+    background-color: transparent;
+    border: 0px;
+    border-radius: 5px;
+    border-bottom: 2px solid white;
+    font-size: 21px;
+    color: rgb(27, 30, 230);
+    margin-top: 10px;
+}
+small{
+    color: white;
+    font-size: 18px;
+}
+option{
+    color: #666;
+}
+.btn-info{
+    margin-top: 30px;
+    margin-left: 150px;
+    width: 180px;
+    font-size: 20px;
+    border-radius: 150px;
+}
+.col-md-6, .col-md-12{
+    background-color: rgba(0,0,0,0.4);
+    height: 90%;
+    box-shadow: -5px 5px 5px;
+    border-radius: 7px;
+    opacity: 0.9;
+}
+body{
+    background-image: url(https://bit.ly/2PLW8TS);
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
+#our-services{
+    font-size: 30px;
+    color: white;
+}
+
+.text-center{
+    margin-top: 20px;
+}
+#ifnotabove{
+    text-align: center;
+    color: white;
+}
+.farm-services{
+    color: white;
+    text-align: center;
+}
+#services-row{
+    display: none;
+    background-color: rgba(0,0,0,0.4);
+    height: 90%;
+    box-shadow: -5px 5px 5px;
+    border-radius: 7px;
+    opacity: 0.9;
+}
+#card{
+    background-color: transparent;
+    color: white;
+}
+#card-body, .card-body{
+    border:1px solid white ;
+}
+label{
+    color: white;
+}
+.icon{
+    border-radius: 100px;
+}
+#back{
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    background-color: white;
+}
